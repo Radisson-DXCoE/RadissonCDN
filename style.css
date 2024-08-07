@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Noto Sans';
-    src: url('https://cdn.statically.io/gh/Radisson-DXCoE/RadissonCDN/main/fonts/NotoSans-Regular.ttf') format('truetype');
+    src: url('./fonts/NotoSans-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -8,7 +8,7 @@
 
 @font-face {
     font-family: 'Noto Sans';
-    src: url('https://cdn.statically.io/gh/Radisson-DXCoE/RadissonCDN/main/fonts/NotoSans-Light.ttf') format('truetype');
+    src: url('./fonts/NotoSans-Light.ttf') format('truetype');
     font-weight: 300;
     font-style: normal;
     font-display: swap;
@@ -16,7 +16,7 @@
 
 @font-face {
     font-family: 'Noto Sans';
-    src: url('https://cdn.statically.io/gh/Radisson-DXCoE/RadissonCDN/main/fonts/NotoSans-Bold.ttf') format('truetype');
+    src: url('./fonts/NotoSans-Bold.ttf') format('truetype');
     font-weight: bold;
     font-style: normal;
     font-display: swap;
@@ -38,6 +38,9 @@ body {
 }
 main {
     flex: 1;
+    width: 100dvw;
+    background-image: url("https://www.radissonhotels.com/akamai_failover/www/radissonhotels/down/img/doorknob.jpg");
+    background-size: cover;
   }
 
 .content {
@@ -68,6 +71,9 @@ h1 {
     font-weight: 400;
     line-height: 32px;
     padding: 0px 24px;
+    background-color: rgba(255, 255, 255,80%);
+    border-radius: 8px;
+
 }
 
 .copy a {
