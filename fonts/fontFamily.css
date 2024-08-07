@@ -1,0 +1,29 @@
+@font-face {
+    font-family: 'Noto Sans';
+    src: url('https://cdn.statically.io/gh/Radisson-DXCoE/RadissonCDN/main/fonts/NotoSans-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Sans';
+    src: url('https://cdn.statically.io/gh/Radisson-DXCoE/RadissonCDN/main/fonts/NotoSans-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Sans';
+    src: url('https://cdn.statically.io/gh/Radisson-DXCoE/RadissonCDN/main/fonts/NotoSans-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+html {
+    font-family: 'Noto Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
