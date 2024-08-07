@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Noto Sans';
-    src: url('./fonts/NotoSans-Regular.ttf') format('truetype');
+    src: url('https://cdn.statically.io/gh/Radisson-DXCoE/RadissonCDN/main/fonts/NotoSans-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -8,7 +8,7 @@
 
 @font-face {
     font-family: 'Noto Sans';
-    src: url('./fonts/NotoSans-Light.ttf') format('truetype');
+    src: url('https://cdn.statically.io/gh/Radisson-DXCoE/RadissonCDN/main/fonts/NotoSans-Light.ttf') format('truetype');
     font-weight: 300;
     font-style: normal;
     font-display: swap;
@@ -16,7 +16,7 @@
 
 @font-face {
     font-family: 'Noto Sans';
-    src: url('./fonts/NotoSans-Bold.ttf') format('truetype');
+    src: url('https://cdn.statically.io/gh/Radisson-DXCoE/RadissonCDN/main/fonts/NotoSans-Bold.ttf') format('truetype');
     font-weight: bold;
     font-style: normal;
     font-display: swap;
